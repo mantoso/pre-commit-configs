@@ -1,0 +1,28 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+max_line_length = 120
+trim_trailing_whitespace = true
+
+[*.{html,js,json,sass,mmark,tf,toml,yaml}]
+indent_size = 2
+
+[*.md]
+indent_size = 2
+max_line_length = 0
+trim_trailing_whitespace = false
+
+[*.{py,sh}]
+indent_size = 4
+max_line_length = 80
+
+[{Makefile, makefile, GNUmakefile, Makefile.*}]
+indent_size = 4
+indent_style = tab
+
+[COMMIT_EDITMSG]
+max_line_length = 0

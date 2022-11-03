@@ -1,0 +1,11 @@
+---
+
+- id: mantoso-labs-meta-hook
+  name: Meta hook wrapper
+  require_serial: true
+  entry: hooks/hook-wrapper.sh
+  language: script
+  always_run: true
+  verbose: true
+
+...
