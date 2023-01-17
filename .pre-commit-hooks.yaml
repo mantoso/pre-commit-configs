@@ -1,6 +1,6 @@
 ---
 
-- id: mantoso-labs-meta-hook
+- id: mantoso-meta-hook
   name: Meta hook wrapper
   require_serial: true
   entry: hooks/hook-wrapper.sh
